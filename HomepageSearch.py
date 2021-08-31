@@ -14,9 +14,13 @@ print("launching chrome browser")
 driver.get("https://www.mybarnite.com/")
 
 links=driver.find_elements(By.TAG_NAME,"a")
-print("The number of link present 1:",len(links))
+print("The number of link present E:",len(links))
+print("The number of link present F:",len(links))
+print("The number of link present H:",len(links))
+print("The number of link present I:",len(links))
 
-print("The number of link present 2:",len(links))
+
+
 
 driver.find_element(By.NAME,"cat").send_keys("Lounges")
 driver.find_element(By.NAME,"searchtxt").send_keys("TW7")
