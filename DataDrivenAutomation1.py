@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 driver=webdriver.Chrome(executable_path="C:\BrowserDrivers\chromedriver.exe")
+#driver.get("https://www.ebay.com/")
 driver.get("https://www.ebay.com/")
 
 links=driver.find_elements(By.TAG_NAME,"a")
