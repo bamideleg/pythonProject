@@ -13,4 +13,5 @@ driver=webdriver.Chrome(executable_path="C:\BrowserDrivers\chromedriver.exe")
 driver.get("https://www.ebay.com/")
 
 links=driver.find_elements(By.TAG_NAME,"a")
-print("The number of link present:",len(links))
+print("The number of link present A:",len(links))
+print("The number of link present A:",len(links))
